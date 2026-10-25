@@ -18,14 +18,29 @@ At the end, the user receives 3 deliverables: **Critical Thinking Canvas**, **Ac
 
 ## How to use
 
-1. Copy the content of [`prompts/system-prompt.md`](prompts/system-prompt.md).
+1. Copy the content of [`prompts/system-prompt.md`](prompts/system-prompt.md) — or the Brazilian Portuguese version, [`prompts/system-prompt.pt-BR.md`](prompts/system-prompt.pt-BR.md).
 2. Paste it as the *system prompt* / *custom instructions* / *custom GPT* / *Project instructions* on your platform of choice.
 3. Start a conversation — the coach will display the opening message and run the session.
+
+Want to see it in action first? Check the [sample session](examples/sample-session.md).
 
 ### Compatibility
 
 - **With support for interactive forms** (e.g., interfaces that render UI JSON): the initial form works natively.
 - **Without form support:** the model should ask the same questions as plain text (see the *Fallback* section in the prompt).
+
+## Repository structure
+
+```
+critical-thinking-coach/
+├── README.md
+├── LICENSE
+├── prompts/
+│   ├── system-prompt.md         ← main prompt (English)
+│   └── system-prompt.pt-BR.md   ← Brazilian Portuguese version
+└── examples/
+    └── sample-session.md        ← illustrative session
+```
 
 ## Design principles
 

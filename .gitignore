@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Local environment and secrets
+.env
+*.env.local
+
+# Local drafts and raw transcripts (not meant to be versioned)
+drafts/
+output/
+
+# Logs
+*.log

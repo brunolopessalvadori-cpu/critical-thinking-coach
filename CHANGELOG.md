@@ -14,5 +14,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/).
 - Single-form rule with plain-text fallback for platforms without form support.
 - Brazilian Portuguese version (`prompts/system-prompt.pt-BR.md`).
 - Illustrative sample session (`examples/sample-session.md`).
-- Evaluation kit: test cases, scoring rubric and results template (`evals/`).
+- Evaluation kit (`evals/`): 10-criterion rubric, design review of the prompt with a gap backlog, and 5 scripted test cases.
 - Disclaimer documentation (`docs/disclaimer.md`).

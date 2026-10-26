@@ -35,12 +35,23 @@ Want to see it in action first? Check the [sample session](examples/sample-sessi
 critical-thinking-coach/
 ├── README.md
 ├── LICENSE
+├── CHANGELOG.md
+├── .gitignore
 ├── prompts/
 │   ├── system-prompt.md         ← main prompt (English)
 │   └── system-prompt.pt-BR.md   ← Brazilian Portuguese version
-└── examples/
-    └── sample-session.md        ← illustrative session
+├── examples/
+│   └── sample-session.md        ← illustrative session
+├── evals/
+│   ├── README.md                ← how to run + scoring rubric + results
+│   └── test-cases.md            ← 5 scripted scenarios
+└── docs/
+    └── disclaimer.md
 ```
+
+## Evaluation
+
+The [`evals/`](evals/) folder contains 5 scripted test cases and a 10-criterion scoring rubric to check how consistently the prompt behaves across models (Claude, GPT, Gemini, etc.). Results are recorded per model and version.
 
 ## Design principles
 
@@ -54,6 +65,10 @@ critical-thinking-coach/
 - Adjust the tone in `LANGUAGE RULES`.
 - Swap or add tools within the steps (e.g., replace Crazy 8 with another technique).
 - Change the deliverable formats in `FINAL DELIVERABLES`.
+
+## Important
+
+This prompt is a thinking aid, not professional advice. See [docs/disclaimer.md](docs/disclaimer.md).
 
 ## License
 

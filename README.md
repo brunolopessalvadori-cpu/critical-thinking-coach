@@ -51,7 +51,7 @@ critical-thinking-coach/
 
 ## Evaluation
 
-The [`evals/`](evals/) folder contains 5 scripted test cases and a 10-criterion scoring rubric to check how consistently the prompt behaves across models (Claude, GPT, Gemini, etc.). Results are recorded per model and version.
+The [`evals/`](evals/) folder contains a **design review** of the prompt against a 10-criterion quality rubric (9 of 10 criteria explicitly enforced in v1.0.0), a backlog of gaps found, and 5 scripted test cases for anyone who wants to benchmark the prompt on a specific model.
 
 ## Design principles
 
